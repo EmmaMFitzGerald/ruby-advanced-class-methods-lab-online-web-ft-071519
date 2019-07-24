@@ -57,6 +57,12 @@ class Song
     artist_name = filename.split(" - ")[0].chomp(".mp3")
     self.new_by_name(song_name)
     artist_name = artist_name
+    
+      self.new_by_name(song_name)
+    song = self.new
+    song.name = song_name
+    song
+  end
     binding.pry
   end
 
